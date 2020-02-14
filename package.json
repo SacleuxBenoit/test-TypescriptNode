@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/SacleuxBenoit/test-TypescriptNode#readme",
   "devDependencies": {
+    "@types/node": "^13.7.1",
+    "concurrently": "^5.1.0",
     "nodemon": "^2.0.2",
     "typescript": "^3.7.5"
   }
