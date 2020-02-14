@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SacleuxBenoit/test-TypescriptNode/issues"
   },
-  "homepage": "https://github.com/SacleuxBenoit/test-TypescriptNode#readme"
+  "homepage": "https://github.com/SacleuxBenoit/test-TypescriptNode#readme",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
 }
