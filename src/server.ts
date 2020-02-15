@@ -2,7 +2,7 @@ const express = require('express');
 
 export default class Server {
 
-    readonly:port: number
+    readonly port: number
 
     constructor (port:number){
 
