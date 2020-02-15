@@ -1,5 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const express = require('express');
-export default class Server {
+class Server {
     constructor(port) {
         this.port = port;
     }
@@ -13,3 +15,4 @@ export default class Server {
         });
     }
 }
+exports.default = Server;
