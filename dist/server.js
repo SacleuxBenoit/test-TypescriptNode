@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const express = require('express');
+const express_1 = require("express");
 class Server {
     constructor(port) {
         this.port = port;
     }
     start() {
-        const app = express();
+        const app = express_1.default();
         app.get('/', function (req, res) {
             res.send("Salut les gens");
         });
