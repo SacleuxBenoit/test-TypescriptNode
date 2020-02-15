@@ -10,5 +10,11 @@ export default class Server {
     }
     start(){
         const app = express()
+        app.get('/', function(req:Request,res:Response){
+            res.send("Salut les gens")
+        })
+        app.listen(this.port, function(){
+            console.log("Server démarré")
+        })
     }
 }
