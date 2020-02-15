@@ -1,3 +1,4 @@
+import {Request, Response} from 'express'
 const express = require('express');
 
 export default class Server {
